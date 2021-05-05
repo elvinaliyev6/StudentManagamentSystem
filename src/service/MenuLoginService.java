@@ -26,7 +26,7 @@ public class MenuLoginService extends MenuService {
         String password = sc.nextLine();
 
         if (Config.instance().username == null || Config.instance().password == null) {
-            System.out.println("Sorry, you are not registered or password username is invalid. Please try again");
+            System.out.println("Sorry, you are not registered");
             showMenu();
         } else if (!(username.equals(Config.instance().username) && password.equals(Config.instance().password))) {
             System.out.println("Oops. Username or password is invalid. Please try again");
