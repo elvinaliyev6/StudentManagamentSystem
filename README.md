@@ -1,0 +1,2 @@
+# StudentManagamentSystem
+Tələbə idarəetmə sistemi
